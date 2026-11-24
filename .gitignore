@@ -1,0 +1,34 @@
+# Terraform state and local data can contain secrets: never commit them.
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+tfplan
+crash.log
+crash.*.log
+*.tfvars
+*.tfvars.json
+!terraform.tfvars.example
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Python
+.pytest_cache/
+__pycache__/
+*.pyc
+.venv/
+
+# Credentials and editor files
+.aws/
+*.pem
+.env
+.vscode/
+.idea/
+
+# Private presentation prep notes
+notes/
+
+# Office lock files
+~$*

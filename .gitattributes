@@ -1,0 +1,11 @@
+* text=auto
+
+# Run on Linux instances: must keep LF line endings even when checked out on Windows.
+*.tftpl text eol=lf
+*.sh    text eol=lf
+*.py    text eol=lf
+app/**  text eol=lf
+
+*.png  binary
+*.docx binary
+*.pdf  binary
