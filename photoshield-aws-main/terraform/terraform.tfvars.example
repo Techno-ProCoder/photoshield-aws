@@ -1,3 +1,0 @@
-# Copy to terraform.tfvars (git-ignored) and adjust.
-# alert_email = "you@example.com"
-# asg_desired = 2
